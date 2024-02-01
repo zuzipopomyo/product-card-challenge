@@ -1,0 +1,100 @@
+body{
+    background-color:hsl(30, 38%, 92%) ;
+}
+
+.card-cointainer{
+    display:flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+
+.div-one{
+    width: 300px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+   
+}
+
+.div-two{
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    text-align: left;
+    padding-left: 35px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-left: 0;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom:25px;
+    color: hsl(212, 21%, 14%);
+    font-size: 40px; 
+    line-height:90%;
+    
+
+}
+
+p{
+   margin-top: 10px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px; 
+    line-height: 25px;
+     
+
+
+}
+
+.button-gp{
+   text-decoration: none;
+   display: flex;
+  
+}
+
+ .btn-one{
+    text-decoration: none;
+    border: none;
+    background-color: none;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.btn-two{
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+    justify-content: center;
+    padding-left: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+.final-btn{
+    background-color:hsl(158, 36%, 37%) ;
+    text-decoration: none;
+    border:  none;
+    padding:10px 60px;
+    font-size: 20px;
+    align-items: center !important;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
